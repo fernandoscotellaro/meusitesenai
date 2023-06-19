@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Scot S.A</title>
+		 <link rel="stylesheet" type="text/css" href=".css/tabela.css">
+		 <link rel="stylesheet" type="text/css" href=".css/cien.css">
+	</head>
+
+	<body>
+		<div id="interface">
+			<header id = "cabecalho">
+				<hgroup>
+					<h1>Profissões da área de T.I</h1>
+					<h2>A era da tecnologia</h2>
+				</hgroup>
+				<img id="icone" src="imagens/icone-scotellaro-hj.png"/>
+				<nav id="menu">
+					<h1>Menu Principal</h1>
+						 <ul>
+							 <li><a href="index.html">Home</a></li>
+							 <li><a href="dev.html"> Des.</a></li>
+							 <li><a href="sn.html"> Adm.</a></li>
+							 <li><a href="sn.html"> Sobre Nós</a></li>
+
+						 </ul>
+
+    			</nav>
+			<!-- Fim do cabeçalho desta página -->
+			</header>
+
+
+			<!-- 206 -- section, article, hgroup, h3, h1, h2, h3 -->
+			<section id="corpo">
+				<article id="pagina-incial">
+					<hgroup id="cabecalho-pagina-principal">
+						<h3 class="bud">Tecnologia > Profissões</h3>
+                		<h1 class="info">Adquira conhecimentos sobre Profissões</h1>
+                		<h2>por Fernando Scotellaro</h2>
+                		<h3 class="direita">Atualizado em 13/Junho/2023</h3>
+					</hgroup>
+
+						<fieldset id="idUsuario">
+							<legend>Identificação do Usuário</legend>
+							<p><label for="idNome">Nome:</label><input type="text" name="nNome" id="idNome" size="20" maxlength="40" placeholder="Nome Completo"></p>
+							<p><label for="idSenha">Senha:</label><input type="password" name="nSenha" id="idSenha" size="8" maxlength="8" placeholder="Até 8 Dígitos"></p>
+							<p><label for="idEmail">E-mail:</label><input type="email" name="nEmail" id="idEmail" size="20" maxlength="40"></p>
+
+							<fieldset id="idSexo">
+								<legend>Sexo:</legend>
+								<input type="radio" name="nSexo" id="idMasc" checked><label for="idMasc">Masculino</label><br>
+								<input type="radio" name="nSexo" id="idFem"><label for="idFem">Feminino</label>
+							</fieldset>
+							<p><label for="idNasc">Data de Nascimento:</label><input type="date" name="nNasc" id="idNasc"></p>
+						</fieldset>
+
+						<fieldset id="idEndereco">
+							<legend>Endereço do Usuário</legend>
+							<p><label for="idRua">Logradouro:</label><input type="text" name="nRua" id="idRua" size="13" maxlength="80" placeholder="Rua,Avenida,Trave..."></p>
+							<p><label for="idNum">Número:</label><input type="number" name="nNum" id="idNum" min="0" max="9999"></p>
+							<p><label for="idEst">Estado:</label>
+								<select name="nEst" id="idEst">
+									<optgroup label="Região Sudeste">
+										<option value="RJ">Rio de Janeiro</option>
+										<option value="SP">São Paulo</option>
+										<option value="MG">Minas Gerais</option>
+										<option value="ES">Espírito Santo</option>
+									</optgroup>
+									<optgroup label="Região Sul">
+										<option value="PR">Paraná</option>
+										<option value="SC">Santa Catarina</option>
+										<option value="RS">Rio Grande do Sul</option>
+									</optgroup>
+								</select>
+							</p>
+							<p><label for="idCid">Cidade:</label><input type="text" name="nCid" id="idCid" size="20" maxlength="40" placeholder="Sua Cidade" list="cidades">
+								<datalist id="cidades">
+									<option value="Rio de Janeiro"></option>
+									<option value="Nova Iguaçu"></option>
+									<option value="Niterói"></option>
+									<option value="Belford Roxo"></option>
+								</datalist>
+							</p>
+						</fieldset>
+
+						<fieldset id="idMensagem">
+							<legend>Mensagem do Usuário</legend>
+							<p><label for="idMsg">Mensagem:</label>
+								<textarea name="nMsg" id="idMsg" cols="45" rows="5" maxlength="250" placeholder="Deixe aqui a sua mensagem"></textarea>
+							</p>
+						</fieldset>
+
+						<input type="image" src="imagens/botao-enviar.png" name="nEnviar">
+
+
+				</article>
+			</section>
+
+			<footer id="rodape">
+
+            	<p>Copyright 2023 - by Fernando Scotellaro<br>
+               		 <a href="https://twitter.com/tuitanandoo" target="_blank">Twitter</a>| <a href="https://www.instagram.com/fernandoscotellaro/" target="_blank"> Instagram</a></p>
+    		</footer>
+		</div>
+	</body>
+</html>
+
