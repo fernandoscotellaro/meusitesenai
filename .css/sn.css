@@ -1,5 +1,62 @@
+@charset "UTF-8";
 
 img#sn {
     width: 800px;
     padding: 40px;
+}
+
+img#icone {
+    position: absolute;
+    left: 650px;
+    top: -40px;
+    width: 200px;
+}
+
+nav#menu-prin {
+    display: block; /* transformar t0do o que é menu em bloco */
+}
+
+nav#menu-prin ul {
+    list-style: none; /* remover marcadores de lista */
+    text-transform: uppercase; /* converter para maiúsculas */
+    position: absolute;
+    margin-top: -100px;
+    margin-right: -1000px;
+    border-top: 1px #606060 solid;
+    border-bottom: 1px #606060 solid;
+}
+
+nav#menu-prin li {
+    display: inline-block; /* colocar os items lado a lado */
+    padding: 5px;
+    margin: 2px; /* aumentar o espaçamento externo da caixa cinza */
+    transition: background-color 1s;
+}
+/* mover para efeito do mouse ao passar sobre o li */
+nav#menu-prin li:hover{
+    background-color: #606060; /* cinza escuro */
+}
+
+nav#menu-prin h1 {
+    display: none;
+}
+
+nav#menu-prin a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav#menu-prin a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+footer#rodape {
+clear: both;
+border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+text-align: center;
 }

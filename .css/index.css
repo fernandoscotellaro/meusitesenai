@@ -44,6 +44,7 @@ hgroup#cabecalho-pagina-principal h1 {
     margin: 0px;
 }
 .bud {
+    margin-top: 55px;
     background-color: #ddd;
 }
 
@@ -75,50 +76,52 @@ figure.foto-legenda:hover figcaption {
 }
 
 
-nav#menu {
+nav#menu-prin {
     display: block; /* transformar t0do o que é menu em bloco */
 }
 
-nav#menu ul {
+nav#menu-prin ul {
     list-style: none; /* remover marcadores de lista */
     text-transform: uppercase; /* converter para maiúsculas */
-    position: absolute; /* para que o menu possa ser colocado no topo, é preciso virar */
-    top: -3px;
-    right: 25px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 85px;
+    border-top: 1px #606060 solid;
+    border-bottom: 1px #606060 solid;
+    text-align: center;
 }
 
-nav#menu li {
+nav#menu-prin li {
     display: inline-block; /* colocar os items lado a lado */
-    background-color: #ddd; /*cor de fundo - cinza */
-    padding: 10px; /* aumentar o espaçamento interno da caixa cinza */
+    padding: 5px; /* aumentar o espaçamento interno da caixa cinza */
     margin: 2px; /* aumentar o espaçamento externo da caixa cinza */
     transition: background-color 1s;
 }
 
 /* mover para efeito do mouse ao passar sobre o li */
-nav#menu li:hover{
+nav#menu-prin li:hover{
     background-color: #606060; /* cinza escuro */
 
 }
 
-nav#menu h1 {
+nav#menu-prin h1 {
     display: none;
 }
 
-nav#menu a {
+nav#menu-prin a {
     color: #000;
     text-decoration: none;
 }
 
-nav#menu a:hover {
+nav#menu-prin a:hover {
     color: #fff;
     text-decoration: underline;
 }
 
 img#icone {
     position: absolute;
-    left: 600px;
-    top: 105px;
+    left: 650px;
+    top: -40px;
     width: 200px;
 }
 
@@ -175,4 +178,18 @@ hgroup#cabecalho-pagina-principal h2 {
     color: #a9a9a9;
 }
 
+.prof {
+    text-align: center;
+}
 
+.fut {
+    text-align: center;
+}
+
+.prep {
+    text-align: center;
+}
+li.sn1{
+    position: relative;
+    margin-left: 30px;
+}

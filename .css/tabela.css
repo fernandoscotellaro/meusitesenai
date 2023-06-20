@@ -5,6 +5,8 @@ form {
     margin: auto; /*centralizar*/
 }
 
+
+
 input, textarea {
     font-family: sans-serif; /* removendo a serifa das fontes */
     font-weight: normal; /* remover qualquer negrito que exista */
@@ -15,6 +17,47 @@ input, textarea {
 input:hover, textarea:hover {
     background-color: #ddd;
 }
+
+
+nav#menu-prin {
+    display: block; /* transformar t0do o que é menu em bloco */
+}
+
+nav#menu-prin ul {
+    list-style: none; /* remover marcadores de lista */
+    text-transform: uppercase; /* converter para maiúsculas */
+    position: absolute;
+    margin-top: -100px;
+    margin-right: -1000px;
+    border-top: 1px #606060 solid;
+    border-bottom: 1px #606060 solid;
+}
+
+nav#menu-prin li {
+    display: inline-block; /* colocar os items lado a lado */
+    padding: 5px;
+    margin: 2px; /* aumentar o espaçamento externo da caixa cinza */
+    transition: background-color 1s;
+}
+/* mover para efeito do mouse ao passar sobre o li */
+nav#menu-prin li:hover{
+    background-color: #606060; /* cinza escuro */
+}
+
+nav#menu-prin h1 {
+    display: none;
+}
+
+nav#menu-prin a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav#menu-prin a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
 
 legend {
     color: #888; /* cinza escuro */
@@ -27,6 +70,15 @@ fieldset {
     border-color: #cecece; /*cinza claro*/
     margin: 20px;
 }
+
+img#icone1 {
+    position: absolute;
+    left: 600px;
+    top: -40px;
+    width: 200px;
+
+}
+
 
 fieldset#idSexo {
     width: 150px;
@@ -46,4 +98,8 @@ fieldset#idMensagem {
 
 fieldset#idPedido {
     background: url("../_imagens/icone-pagamento.png") no-repeat 95% 95%;
+}
+
+.bud {
+    margin-top: 60px;
 }
