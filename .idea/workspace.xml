@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbc8d10c-0d51-432c-893b-4e0eb54a6c9d" name="Changes" comment="dia final do site, dia 21/06/2023" />
+    <list default="true" id="dbc8d10c-0d51-432c-893b-4e0eb54a6c9d" name="Changes" comment="dia final do site, dia 21/06/2023">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adm.html" beforeDir="false" afterPath="$PROJECT_DIR$/adm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fc.html" beforeDir="false" afterPath="$PROJECT_DIR$/fc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sn.html" beforeDir="false" afterPath="$PROJECT_DIR$/sn.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687354643118</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dia final do site, dia 21/06/2023">
+      <created>1687354824380</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687354824380</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
