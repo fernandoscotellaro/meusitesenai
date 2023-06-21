@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbc8d10c-0d51-432c-893b-4e0eb54a6c9d" name="Changes" comment="dia final2 do site, dia 20/06/2023">
-      <change beforePath="$PROJECT_DIR$/.css/adm.css" beforeDir="false" afterPath="$PROJECT_DIR$/.css/adm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.css/dev.css" beforeDir="false" afterPath="$PROJECT_DIR$/.css/dev.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/.css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.css/sn.css" beforeDir="false" afterPath="$PROJECT_DIR$/.css/sn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adm.html" beforeDir="false" afterPath="$PROJECT_DIR$/adm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cien.html" beforeDir="false" afterPath="$PROJECT_DIR$/cien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fc.html" beforeDir="false" afterPath="$PROJECT_DIR$/fc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sn.html" beforeDir="false" afterPath="$PROJECT_DIR$/sn.html" afterDir="false" />
-    </list>
+    <list default="true" id="dbc8d10c-0d51-432c-893b-4e0eb54a6c9d" name="Changes" comment="dia final do site, dia 21/06/2023" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687271764519</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dia final do site, dia 21/06/2023">
+      <created>1687354643118</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687354643118</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +99,7 @@
     <MESSAGE value="dia final do site, dia 19/06/2006" />
     <MESSAGE value="dia final do site, dia 20/06/2023" />
     <MESSAGE value="dia final2 do site, dia 20/06/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="dia final2 do site, dia 20/06/2023" />
+    <MESSAGE value="dia final do site, dia 21/06/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="dia final do site, dia 21/06/2023" />
   </component>
 </project>
