@@ -43,7 +43,7 @@ hgroup#cabecalho-pagina-principal h1 {
     color: #606060;
     margin: 0px;
 }
-.bud {
+.bid {
     margin-top: 55px;
     background-color: #ddd;
 }
@@ -192,4 +192,17 @@ hgroup#cabecalho-pagina-principal h2 {
 li.sn1{
     position: relative;
     margin-left: 30px;
+}
+
+.bud {
+    margin-top: 70px;
+    background-color: #ddd;
+}
+
+.foto-desen {
+    margin-left: 250px;
+}
+
+h2 {
+    text-align: center;
 }
